@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    z-index: 1;
 }
 
 a,
@@ -361,10 +362,6 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-.portofolioText
-{
-    font-size: 22px;
-}
 .quote
 {
     font-size: 18px;
@@ -374,6 +371,11 @@ a:hover {
     font-size: 22px;
     margin-bottom: 50px;
 }
+.contactText
+{
+    background: rgba(31, 31, 31,0.8)!important;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -716,7 +718,7 @@ p {
     margin: auto auto auto auto;
 }
 
-.orangeText {
+h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -791,7 +793,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #904114;
     color: #FFFFFF!important;
 }
 

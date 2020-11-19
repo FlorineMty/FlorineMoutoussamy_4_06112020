@@ -375,6 +375,15 @@ a:hover {
 {
     background: rgba(31, 31, 31,0.8)!important;
 }
+ul li:hover
+{
+    background-color: rgba(144, 65, 20, 0.3)!important;
+    transition: 0.4s;
+}
+.footerText
+{
+    color: #212121!important;
+}
 
 @media (min-width: 768px) {
     .site-navigation {

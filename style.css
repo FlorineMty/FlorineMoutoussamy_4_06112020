@@ -384,6 +384,10 @@ ul li:hover
 {
     color: #212121!important;
 }
+.contactBack
+{
+    background: rgba(0, 0, 0, 0.7);
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -531,6 +535,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
 }
 
 .scrollToTop {
@@ -804,6 +812,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #904114;
     color: #FFFFFF!important;
+    border-radius: 5px;
 }
 
 .btn-atomic-tangerine:hover {

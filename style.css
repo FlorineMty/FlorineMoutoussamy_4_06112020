@@ -362,6 +362,10 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.col-xs-12
+{
+    color: #575757;
+}
 .quote
 {
     font-size: 18px;

@@ -392,7 +392,10 @@ ul li:hover
 {
     background: rgba(0, 0, 0, 0.7);
 }
-
+.mail
+{
+    font-weight: bold;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;

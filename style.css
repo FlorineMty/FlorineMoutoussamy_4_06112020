@@ -397,6 +397,10 @@ ul li:hover
     font-weight: bold;
 }
 @media (min-width: 768px) {
+    .intro
+    {
+    padding: 10px 0 10px 0;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -864,10 +868,6 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-h2 .intro
-{
-    padding: 10px 0 10px 0;
-}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
